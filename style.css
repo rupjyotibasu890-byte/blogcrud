@@ -1,0 +1,110 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 30px auto;
+    background: #f4f6f9;
+    color: #222;
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.create-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 25px;
+    background: #0078d7;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.create-btn:hover {
+    background: #005fa3;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+.blog-box {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    word-wrap: break-word;
+}
+
+.blog-box:hover {
+    transform: scale(1.01);
+}
+
+.blog-box h2 {
+    margin-top: 0;
+    color: #0078d7;
+    margin-bottom: 10px;
+}
+
+.blog-box .content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.blog-box .actions {
+    margin-top: 15px;
+}
+
+.blog-box .actions a {
+    margin-right: 15px;
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: 500;
+}
+.blog-box .actions a:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, button {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+button {
+    background: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #005fa3;
+}
